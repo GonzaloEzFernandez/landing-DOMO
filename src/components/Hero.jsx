@@ -2,7 +2,7 @@ import Button from "./UI/Button";
 
 export default function Hero() {
     return (
-        <section className="flex items-center justify-center px-8 h-screen  lg:h-[110vh] lg:px-20 xl:px-52 bg-[#283345] font-bold relative ">
+        <section className="flex items-center justify-center px-8 h-screen  lg:h-[110vh] lg:px-20 xl:px-40 bg-[#283345] font-bold relative ">
             <div className=" flex flex-col justify-center z-10 gap-8 lg:w-1/2">
                 <h1 className="text-[44px] leading-[55px] text-white">We build beautiful and relible web solutions</h1>
                 <div>

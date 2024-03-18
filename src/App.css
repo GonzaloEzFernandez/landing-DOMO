@@ -4,3 +4,8 @@
 	background-color: #283345;
 	overflow-x: hidden;
 }
+
+.active {
+	color: white;
+	animation-duration: 3s;
+}

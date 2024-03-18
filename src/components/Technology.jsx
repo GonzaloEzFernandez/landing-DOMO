@@ -1,7 +1,7 @@
 
 export default function Technology(props) {
     return (
-        <section className="flex flex-col gap-20 lg:gap-0 lg:flex-row lg:justify-center lg:items-center py-8 px-8 lg:px-52 text-white h-full lg:h-[75vh] bg-[#3871FF] ">
+        <section className="flex flex-col gap-20 lg:gap-0 lg:flex-row lg:justify-center lg:items-center py-10 px-8 xl:px-40 text-white h-full lg:h-[84vh] bg-[#3871FF] ">
             <div className=" text-center lg:w-1/2 pt-6">
                 <h2 className="text-3xl text-semibold pb-8">We use cutting edge technology</h2>
                 <p className="text-[#9BB8FF] text-lg leading-8">
@@ -11,12 +11,12 @@ export default function Technology(props) {
                     semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibis dolor auctor.
                 </p>
             </div>
-            <div className="grid grid-cols-3 lg:grid-cols-2 gap-20 justify-items-center justify-center lg:px-36 lg:w-1/2 text-white">
+            <div className="grid grid-cols-3 lg:grid-cols-2 gap-12 justify-items-center justify-center lg:px-36 lg:w-1/2 text-white">
 
                 <svg
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-24"
+                    className="w-20"
                     {...props}
                 >
                     <path d="M13.1 3.5l.7 1.1.7-1.1V5h1V2h-1l-.7 1.1-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5-3.6 1-3.6-1-.3-2.9h1.8l.1 1.5 2 .5 2-.5.2-2.3H8l-.5-5.3h9l-.2 1.7z" />
@@ -25,7 +25,7 @@ export default function Technology(props) {
                 <svg
                     viewBox="0 0 32 32"
                     fill="currentColor"
-                    className="w-24"
+                    className="w-20"
                     {...props}
                 >
                     <path
@@ -36,7 +36,7 @@ export default function Technology(props) {
                 <svg
                     viewBox="0 0 32 32"
                     fill="currentColor"
-                    className="w-24"
+                    className="w-20"
                     {...props}
                 >
                     <path
@@ -47,7 +47,7 @@ export default function Technology(props) {
                 <svg
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-24"
+                    className="w-20"
                     {...props}
                 >
                     <path d="M12 21.985c-.275 0-.532-.074-.772-.202l-2.439-1.448c-.365-.203-.182-.277-.072-.314.496-.165.588-.201 1.101-.493.056-.037.129-.02.185.017l1.87 1.12c.074.036.166.036.221 0l7.319-4.237c.074-.036.11-.11.11-.202V7.768c0-.091-.036-.165-.11-.201l-7.319-4.219c-.073-.037-.165-.037-.221 0L4.552 7.566c-.073.036-.11.129-.11.201v8.457c0 .073.037.166.11.202l2 1.157c1.082.548 1.762-.095 1.762-.735V8.502c0-.11.091-.221.22-.221h.936c.108 0 .22.092.22.221v8.347c0 1.449-.788 2.294-2.164 2.294-.422 0-.752 0-1.688-.46l-1.925-1.099a1.55 1.55 0 01-.771-1.34V7.786c0-.55.293-1.064.771-1.339l7.316-4.237a1.637 1.637 0 011.544 0l7.317 4.237c.479.274.771.789.771 1.339v8.458c0 .549-.293 1.063-.771 1.34l-7.317 4.236c-.241.11-.516.165-.773.165zm2.256-5.816c-3.21 0-3.87-1.468-3.87-2.714 0-.11.092-.221.22-.221h.954c.11 0 .201.073.201.184.147.971.568 1.449 2.514 1.449 1.54 0 2.202-.35 2.202-1.175 0-.477-.185-.825-2.587-1.063-1.999-.2-3.246-.643-3.246-2.238 0-1.485 1.247-2.366 3.339-2.366 2.347 0 3.503.809 3.649 2.568a.297.297 0 01-.056.165c-.037.036-.091.073-.146.073h-.953a.212.212 0 01-.202-.164c-.221-1.012-.789-1.34-2.292-1.34-1.689 0-1.891.587-1.891 1.027 0 .531.237.696 2.514.99 2.256.293 3.32.715 3.32 2.294-.02 1.615-1.339 2.531-3.67 2.531z" />
@@ -55,7 +55,7 @@ export default function Technology(props) {
                 <svg
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-24"
+                    className="w-20"
                     {...props}
                 >
                     <path d="M11.964 0L.672 3.974l1.784 14.794L11.976 24l9.568-5.303 1.784-14.794zm-.027 1.258l10.265 3.5-1.663 13.232-8.602 4.76-8.469-4.697L1.939 4.822zm0 .78L4.957 17.57l2.604-.048 1.4-3.501h6.257l1.532 3.55 2.492.046zm.02 4.98l2.355 4.93H9.878z" />
@@ -63,7 +63,7 @@ export default function Technology(props) {
                 <svg
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-24"
+                    className="w-20"
                     {...props}
                 >
                     <path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 110-1.57.784.784 0 110 1.57z" />

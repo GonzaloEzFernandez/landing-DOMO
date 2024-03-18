@@ -2,12 +2,12 @@ import OurServicesCard from "./OurServicesCard";
 
 export default function AurServices() {
     return (
-        <section className="flex flex-col pb-8 gap-14 lg:items-center px-8 lg:px-52 font-bold bg-transparent text-white h-full rounded-sm lg:h-[60vh] xl:h-[65vh] relative">
+        <section className="flex flex-col pb-8 gap-14 lg:items-center  px-8 lg:px-40 font-bold bg-transparent text-white h-full rounded-sm lg:h-[75vh] xl:h-[80vh] relative">
             <div className="flex flex-col items-center gap-5 ">
                 <h2 className="text-3xl font-semibold text-center">Our Service</h2>
                 <p className="lg:w-3/4 text-lg font-semibold text-gray-400 lg:text-center">We feel very strong about skills when it comes to planning, designing and coding applications. Here is what we love to do!</p>
             </div>
-            <div className="flex flex-col items-center lg:flex-row gap-8 text-white lg:absolute -bottom-16">
+            <div className="flex flex-col items-center lg:flex-row gap-6 text-white lg:absolute -bottom-14">
                 <OurServicesCard
                     icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6v-3Z" />

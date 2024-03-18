@@ -1,7 +1,7 @@
 
 export default function Footer(props) {
     return (
-        <div className='h-full py-20 lg:h-[50vh] flex flex-col lg:flex-row p-4 lg:p-0 gap-16 items-center justify-center leading-7 text-sm bg-[#283345] lg:px-48'>
+        <div className='h-full py-20 lg:h-[55vh] xl:h[50vh] flex flex-col lg:flex-row p-4 lg:p-0 gap-16 items-center justify-center leading-7 text-sm bg-[#283345] xl:px-28'>
             <div className='lg:w-2/3 lg:flex flex-col justify-center lg:px-20'>
                 <div>
                     <h3 className=' font-bold text-white py-2'>completeet labs</h3>
