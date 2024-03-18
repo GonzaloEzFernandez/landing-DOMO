@@ -59,8 +59,8 @@ export default function Clients(props) {
           text={'Maecenas sed diam eget risus varius blandit sit amet non magna.'}
           buttonText={'Hire us'}
         >
-          <img className="absolute hidden lg:block lg:-bottom-40 scale-x-125" src="src/IMG/images-removebg-preview (1).png" alt="" />
-          <img className="scale-100 lg:hidden" src="src/IMG/images-removebg-preview (1).png" alt="" />
+          <img className="absolute hidden lg:block lg:-bottom-40 scale-x-125" src="./IMG/images-removebg-preview (1).png" alt="iphon & smart watch" />
+          <img className="scale-100 lg:hidden" src="./IMG/images-removebg-preview (1).png" alt="iphon & smart watch" />
         </ClientCard>
       </div>
     </div>

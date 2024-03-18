@@ -3,8 +3,8 @@ import Button from "./UI/Button";
 export default function Hero() {
     return (
         <section className="flex items-center justify-center px-8 h-screen  lg:h-[110vh] lg:px-20 xl:px-40 bg-[#283345] font-bold relative ">
-            <div className=" flex flex-col justify-center z-10 gap-8 lg:w-1/2">
-                <h1 className="text-[44px] leading-[55px] text-white">We build beautiful and relible web solutions</h1>
+            <div className=" flex flex-col justify-center gap-8 lg:w-1/2 z-10 ">
+                <h1 className="text-[44px] leading-[55px] text-white ">We build beautiful and relible web solutions</h1>
                 <div>
                     <p className="text-lg font-semibold text-gray-400">We strongly that communication, trust and transparency are the essential elements of successful business relationship.  Ready for the journey?</p>
                     <p className="text-gray-400"></p>
@@ -17,9 +17,9 @@ export default function Hero() {
                     </button>
                 </div>
             </div>
-            <div className=" w-1/2">
-                <img className="hidden lg:block h-full  top-5 right-1 scale-110 absolute object-cover w-[640px] " src="src/IMG/asset-background.jpg" alt="" />
-                <img className="md:-right-28 lg:hidden h-full top-0 opacity-40 -right-14 scale-110 absolute object-cover w-[640px] " src="src/IMG/asset-background.jpg" alt="" />
+            <div className="z-0 w-1/2">
+                <img className="hidden lg:block h-full  top-5 right-1 scale-110 absolute object-cover w-[640px] " src="./IMG/asset-background.jpg" alt="image-domo" />
+                <img className="md:-right-28 lg:hidden  h-full top-0 opacity-40 -right-14 scale-110 absolute object-cover w-[640px] " src="./IMG/asset-background.jpg" alt="image-domo" />
             </div>
         </section >
     )

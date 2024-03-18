@@ -3,6 +3,7 @@
 	margin: 0 auto;
 	background-color: #283345;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 .active {
